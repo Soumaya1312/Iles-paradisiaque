@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T’as Pas Fait le Tour des Îles ! C'EST UNE BLAAGUE</title>
+    <!-- Liens vers les polices Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lora', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffefdb; /* couleur chaude et douce */
+            color: #333;
+            line-height: 1.8;
+            background-image: url('images/coquillage.png'); /* Image de coquillage comme fond */
+            background-repeat: no-repeat;
+            background-position: bottom left;
+            background-size: 150px; /* Taille du coquillage */
+        }
+        
+        header {
+            background-color: #ff7e5f; /* couleur chaude */
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-family: 'Dancing Script', cursive; /* Police esthétique pour le titre */
+            font-size: 50px;
+            margin: 0;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        header p {
+            font-size: 18px;
+            margin-top: 15px;
+            font-weight: 600;
+        }
+
+        .nav {
+            background-color: #ff9a8b; /* Une couleur chaude pour le menu */
+            padding: 12px;
+            text-align: center;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 20px;
+            font-weight: 600;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        .nav a:hover {
+            color: #ff7e5f;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto; /* Espacement entre les sections */
+            padding: 0 20px;
+        }
+
+        .island-section {
+            background-color: #fff;
+            margin-bottom: 50px; /* Plus d'espace entre les sections */
+            border-radius: 10px;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            display: flex;
+            flex-direction: row;
+            padding: 20px; /* Plus d'espace autour des éléments */
+            gap: 40px; /* Plus d'espace entre les éléments */
+        }
+
+        .image-container {
+            width: 45%;
+            height: 250px; /* Réduit la hauteur des images */
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .island-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px; /* Espacement entre les éléments du texte */
+            width: 55%; /* Réduit la largeur du texte pour laisser plus de place aux images */
+        }
+
+        .island-info h2 {
+            font-family: 'Dancing Script', cursive;
+            color: #ff7e5f; /* Couleur chaude pour les titres */
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .island-info p {
+            font-size: 16px; /* Réduit la taille du texte */
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #ff9a8b;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 60px; /* Espacement avant le footer */
+        }
+
+        footer a {
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>T’as Pas Fait le Tour des Îles ! C'EST UNE BLAAGUE</h1>
+        <p>Explorez les plus belles îles du monde avec une touche d'humour et de soleil !</p>
+    </header>
+
+    <div class="nav">
+        <a href="#">Accueil</a>
+        <a href="#">Articles</a>
+        <a href="#">À propos</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="container">
+        <!-- Île des Comores -->
+        <section class="island-section">
+            <div class="image-container">
+                <img src="images/comores1.jpg" alt="Les Comores">
+            </div>
+            <div class="island-info">
+                <h2>Les Comores</h2>
+                <p>Les Comores, un archipel situé dans l'océan Indien, est réputé pour ses plages de sable blanc, ses lagons turquoise et ses montagnes volcaniques. C'est une destination idéale pour les amoureux de la nature et les plongeurs.</p>
+                <p>Activités : Plongée, randonnée, découverte de la faune et flore locales.</p>
+            </div>
+        </section>
+
+        <!-- Bora Bora (Polynésie Française) -->
+        <section class="island-section">
+            <div class="image-container">
+                <img src="images/bora_bora1.jpg" alt="Bora Bora">
+            </div>
+            <div class="island-info">
+                <h2>Bora Bora (Polynésie Française)</h2>
+                <p>Bora Bora est une île mythique des îles de la Polynésie Française. C'est l'endroit idéal pour les voyageurs en quête de plages paradisiaques et d'une eau cristalline. Un vrai coin de paradis.</p>
+                <p>Activités : Plongée, snorkeling, exploration des lagons.</p>
+            </div>
+        </section>
+
+        <!-- Les Maldives -->
+        <section class="island-section">
+            <div class="image-container">
+                <img src="images/maldives1.jpg" alt="Les Maldives">
+            </div>
+            <div class="island-info">
+                <h2>Les Maldives</h2>
+                <p>Les Maldives sont un archipel composé de centaines d'îles, parfaites pour des vacances de luxe au bord de l'eau. L'eau turquoise et la biodiversité marine sont les points forts de cette destination.</p>
+                <p>Activités : Plongée sous-marine, snorkeling, détente sur les plages.</p>
+            </div>
+        </section>
+
+        <!-- Maui (Hawaï, USA) -->
+        <section class="island-section">
+            <div class="image-container">
+                <img src="images/maui1.jpg" alt="Maui (Hawaï)">
+            </div>
+            <div class="island-info">
+                <h2>Maui (Hawaï, USA)</h2>
+                <p>Maui est une île d'Hawaï qui allie plages idylliques et paysages volcaniques. C'est un excellent choix pour les amateurs de randonnée, de plages et de culture hawaïenne.</p>
+                <p>Activités : Randonnée dans les montagnes, visites culturelles, surf.</p>
+            </div>
+        </section>
+
+        <!-- Phuket (Thaïlande) -->
+        <section class="island-section">
+            <div class="image-container">
+                <img src="images/phuket1.jpg" alt="Phuket">
+            </div>
+            <div class="island-info">
+                <h2>Phuket (Thaïlande)</h2>
+                <p>Phuket est l'une des plus grandes îles de Thaïlande, connue pour ses plages animées, ses stations balnéaires et sa vie nocturne. C'est également un excellent endroit pour explorer la culture thaïlandaise.</p>
+                <p>Activités : Plongée, visites culturelles, exploration des plages.</p>
+            </div>
+        </section>
+
+        <!-- Seychelles -->
+        <section class="island-section">
+            <div class="image-container">
+                <img src="images/seychelles1.jpg" alt="Seychelles">
+            </div>
+            <div class="island-info">
+                <h2>Seychelles</h2>
+                <p>Les Seychelles sont un archipel situé dans l'océan Indien, connu pour ses plages magnifiques et son écosystème préservé. C'est un lieu idéal pour se détendre et se reconnecter avec la nature.</p>
+                <p>Activités : Plongée, exploration des îles, randonnée.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Les îles à visiter | <a href="#">Contactez-nous</a></p>
+    </footer>
+</body>
+</html>
